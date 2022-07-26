@@ -15,7 +15,7 @@ Using The MechaCar_mpg.csv dataset that contains mpg test results for 50 prototy
 
 See below for the results of our multiple linear model
 
-[iamge](https://github.com/gotica462/MechaCar_Statistical_Analysis/blob/main/P-value%20and%20R_square%20value.png)
+[image] (https://github.com/gotica462/MechaCar_Statistical_Analysis/blob/main/P-value%20and%20R_square%20value.png)
 
 
 
