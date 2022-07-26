@@ -17,6 +17,15 @@ See below for the results of our multiple linear model
 
 ![image](https://github.com/gotica462/MechaCar_Statistical_Analysis/blob/main/P-value%20and%20R_square%20value.png)
 
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
+Based on our results, the varaibles ground clearance, vehicle length, and intercept provided a non-random amount of variance to the mpg values in the dataset since their p-value is less than 0.05. Therefore,they are statistically unlikely to provide random amounts of variance to the linear model. 
 
+ -Is the slope of the linear model considered to be zero? Why or why not?
+ 
+No, the slope of our lineal model is not zero. Because our p-value = 5.35 x 10*-11) which is much smaller than the significance level of 0.05. So there is enough evidence to reject or null hypothesis. 
+            
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+Yes, it does predcit the mpg of MechaCar prototypes effectively, because its r-value is greater than 0.7 (our it's 0.7149) and that indicates a strong correlation.
 
