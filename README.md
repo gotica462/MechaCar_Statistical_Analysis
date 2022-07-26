@@ -29,3 +29,21 @@ No, the slope of our lineal model is not zero. Because our p-value = 5.35 x 10*-
 
 Yes, it does predcit the mpg of MechaCar prototypes effectively, because its r-value is greater than 0.7 (our it's 0.7149) and that indicates a strong correlation.
 
+## Summary Statistics on Suspension Coils
+
+We used the MechaCar Suspension_Coil.csv dataset, in which  the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots, and created a summary statistics table using our knowledge of R.
+
+See below for the results of the suspension coil’s PSI continuous variable across all manufacturing lots
+
+![image](https://github.com/gotica462/MechaCar_Statistical_Analysis/blob/main/Total_Summary.png)
+
+See below for the reslts for PSI metrics for each lot: mean, median, variance, and standard deviation.
+
+![image](https://github.com/gotica462/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.png)
+
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
+
+
+
