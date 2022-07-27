@@ -70,5 +70,28 @@ Lot 3
 ![image](https://github.com/gotica462/MechaCar_Statistical_Analysis/blob/main/lot3.png)
 
 
+In Lots 1 and 2  our p-values of 1 and 0.6 are greater than our significance value (0.05).  We do not have sufficient evidence to reject the null hypothesis, and we would state that lot1 and lot 2 are statistically similar to the population mean of 1,500 pounds per square inch. However our lot3 p-value (0.04) is less than our significance value (0.05) and in this case  we do have sufficient evidence to reject the null hypothesis, and we could say that lot3 is statistically different from the population mean of 1,500 pounds per square inch.
+
+
+shows that p-value = 1 > 0.05 (significance value). That means we do not have sufficient evidence to reject the null hypothesis, and we would state that lot1 is statistically similar to the population mean of 1,500 pounds per square inch.
+
+## Study Design: MechaCar vs Competition
+
+Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+As a parent, one of my main concerns is safety, specifically I would like to Know if the MechaCar model is considered safer than other vehicles, so I would conduct a study to compare the metrics to see how often each manufacturer appear in accidents and see if the MechaCar appears more or less frequently than others.
+
+I would start with the following hypothesis
+
+Null hypothesis: There is no difference in frequency MechaCar accidents compared to competitors
+
+Alternative hypothesis: There is difference in frequency MechaCar accidents compared to competitors
+
+I would use a chi-squared test because i want to know if there is a difference in categorical frequencies between groups? (In our case vehicle's manufacturers) and I would like to compare it between groups.
+
+The data set I would need to run would be one containing accident data in the US, I could go as far back as five years, and I would like to have categories of falta accidents and vehicle models. Maybe use the paige of the NHTSA (National Highway Traffic Safety Association) to get the information needed.
+
+
+
 
 
