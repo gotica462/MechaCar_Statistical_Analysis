@@ -45,6 +45,30 @@ See below for the reslts for PSI metrics for each lot: mean, median, variance, a
 
 If we look at the total, then yes, the current manufacturing date meets the design specification requirement since the variance for all manufactoring lot is 62.9, which is less than 100. However is we look at each lot individually we find that only Lot 1 and Lot 2 meet the required specification. Lot 3 has a variance of more than 170 which exceeds the limit of 100 and fails the required design specification.
 
+## T-Tests on Suspension Coils
+
+Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+See results below for the t-test of all manufacturing lots
+
+![image](https://github.com/gotica462/MechaCar_Statistical_Analysis/blob/main/Alllots.png)
+
+The results shows that are P-Value (0.06) is > than our significance value. Therefore we do not have sufficient evidence to reject the null hypothesis. All manufacturing lots are statistically similar to the population mean of 1,500 pounds per square inch.
+
+See rbelow for results for each lot individually.
+
+Lot 1
+
+![image](https://github.com/gotica462/MechaCar_Statistical_Analysis/blob/main/Lot1.png)
+
+Lot 2
+
+![image](https://github.com/gotica462/MechaCar_Statistical_Analysis/blob/main/Lot2.png)
+
+Lot 3
+
+![image](https://github.com/gotica462/MechaCar_Statistical_Analysis/blob/main/lot3.png)
+
 
 
 
